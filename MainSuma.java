@@ -2,21 +2,20 @@ import java.util.Scanner;
 public class MainSuma{ 
     public static void main(String[] args){
         Scanner op = new Scanner(System.in);
-        int a,b,c;
+        int y,x;
 
          System.out.println("ingresa un numero entero");
 
-         a=op.nextInt();
+         x=op.nextInt();
 
          System.out.println("ingresa otro numero entero");
 
-         b=op.nextInt();
+         y=op.nextInt();
 
-         Operacion evaluar = new Operacion();
-         evaluar.p= a;
-         evaluar.s= b;
-         evaluar.resultado= a+b;
-         evaluar.mostrarResultado();
+         Suma evaluar = new Suma();
+         evaluar. x= x;
+         evaluar.y= y;
+        evaluar.mostrarResultado();
     }
 
 }
